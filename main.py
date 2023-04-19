@@ -10,8 +10,6 @@ load_dotenv()
 url = "https://api.openai.com/v1/chat/completions"
 apiKey = os.getenv('API_KEY')
 
-# Initial message to send to the API
-# message = "Hello, how can I help you today?"
 
 # History array to store the conversation context
 history = []
